@@ -1,0 +1,19 @@
+.workspace-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 98%;
+    width: 98%;
+    background-color: #e3f4f4;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    .workspace-box__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 1rem;
+        width: 97%;
+        height: 94%;
+    }
+}
