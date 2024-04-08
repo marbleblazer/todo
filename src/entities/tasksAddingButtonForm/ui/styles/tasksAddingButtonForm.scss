@@ -1,0 +1,20 @@
+@import '../../../../shared/globalStyles/colors';
+
+.tasks-adding-button-form {
+    display: flex;
+    align-items: center;
+    width: 97%;
+    height: 4%;
+    background-color: $light-blue;
+    border-radius: 15px;
+    margin-top: 10px;
+    &:hover {
+        transition: 0.3s;
+
+        background-color: $light-gray-blue;
+    }
+
+    &:not(:hover) {
+        transition: 0.3s;
+    }
+}

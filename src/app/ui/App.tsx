@@ -1,5 +1,6 @@
+import '../../shared/globalStyles/global.scss';
+
 import { Routing } from '../routing/Routing';
-import './styles/global.scss';
 
 export function App() {
     return <Routing />;

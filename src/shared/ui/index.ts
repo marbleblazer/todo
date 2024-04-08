@@ -1,2 +1,2 @@
 export { WorkspaceBox } from './workspaceBox/WorkspaceBox';
-export { TaskStatusColumnBox } from './taskStatusColumnBox/TaskStatusColumnBox';
+export { TaskStatusColumn } from './taskStatusColumn/TaskStatusColumn';

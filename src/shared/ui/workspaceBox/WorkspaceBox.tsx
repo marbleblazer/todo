@@ -1,14 +1,14 @@
-import './styles/workspaceBox.scss';
+import './styles/workspace.scss';
 
-export type TChildrenProp = {
+type TProps = {
     children: React.ReactNode;
 };
 
 /** Workspace main box */
-export function WorkspaceBox({ children }: TChildrenProp) {
+export function WorkspaceBox({ children }: TProps) {
     return (
-        <div className='workspace-box'>
-            <div className='workspace-box__wrapper'>{children}</div>
+        <div className='workspace'>
+            <div className='workspace__columns-wrapper'>{children}</div>
         </div>
     );
 }
