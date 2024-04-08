@@ -1,3 +1,5 @@
+@import 'colors';
+
 html,
 body {
     margin: 0;
@@ -5,7 +7,7 @@ body {
     font-family: Helvetica, sans-serif;
     font-size: 11px;
     width: 100%;
-    background-color: #f8f6f4;
+    background-color: $light-beige;
     overflow: hidden;
     height: 100%;
 }

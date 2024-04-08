@@ -1,0 +1,19 @@
+@import '../../../globalStyles/colors';
+
+@mixin task-status-column($width) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 98%;
+    background-color: $sky-blue;
+    border-radius: 15px;
+    width: $width;
+}
+
+.task-status-column-tight {
+    @include task-status-column(30%);
+}
+
+.task-status-column-wide {
+    @include task-status-column(40%);
+}

@@ -1,12 +1,17 @@
-import { TaskStatusColumnBox, WorkspaceBox } from 'shared/ui';
+import { TaskStatusColumn, WorkspaceBox } from 'shared/ui';
+
+import { TasksAddingButtonForm } from 'entities/tasksAddingButtonForm';
 
 /** Main page */
 export function Home() {
     return (
         <WorkspaceBox>
-            <TaskStatusColumnBox width='tight'>TO-DO</TaskStatusColumnBox>
-            <TaskStatusColumnBox width='wide'>I'm working on it</TaskStatusColumnBox>
-            <TaskStatusColumnBox width='tight'>It's done</TaskStatusColumnBox>
+            <TaskStatusColumn width='tight'>
+                TO-DO
+                <TasksAddingButtonForm />
+            </TaskStatusColumn>
+            <TaskStatusColumn width='wide'>I'm working on it</TaskStatusColumn>
+            <TaskStatusColumn width='tight'>It's done</TaskStatusColumn>
         </WorkspaceBox>
     );
 }
