@@ -9,11 +9,11 @@ export function Routing() {
     return (
         <Routes>
             <Route
-                path='/'
+                path=''
                 element={<Layout />}
             >
                 <Route
-                    index
+                    path='/Home'
                     element={<Home />}
                 />
             </Route>

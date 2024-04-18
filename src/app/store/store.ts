@@ -1,7 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
 
+import taskAddingSlice from 'features/tasksAddingButtonForm/model/taskAddingSlice';
+
 export const store = configureStore({
-    reducer: {},
+    reducer: {
+        taskAdding: taskAddingSlice,
+    },
 
     // middleware: getDefaultMiddleware =>
     //     getDefaultMiddleware({
