@@ -5,7 +5,7 @@ const initialState = {
 };
 
 /** Slice managing task adding on board */
-const taskAddingSlice = createSlice({
+const tasksManagerSlice = createSlice({
     name: 'taskAdding',
     initialState,
     reducers: {
@@ -15,6 +15,6 @@ const taskAddingSlice = createSlice({
     },
 });
 
-export const { toggleTaskAddingStatus } = taskAddingSlice.actions;
+export const { toggleTaskAddingStatus } = tasksManagerSlice.actions;
 
-export default taskAddingSlice.reducer;
+export default tasksManagerSlice.reducer;

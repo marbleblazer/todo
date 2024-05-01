@@ -1,6 +1,6 @@
 import { TaskStatusColumn, WorkspaceBox } from 'shared/ui';
 
-import { TasksAddingButtonForm } from 'features/tasksAddingButtonForm';
+import { TasksAddingButtonForm } from 'features/tasksAdding';
 
 /** Main page */
 export function Home() {

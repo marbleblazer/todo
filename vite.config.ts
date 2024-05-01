@@ -12,6 +12,7 @@ export default defineConfig(({ mode, command }) => {
     }
     return {
         plugins,
+        base: '/Home/',
         resolve: {
             alias: [
                 { find: 'shared', replacement: path.resolve(__dirname, 'src/shared') },
